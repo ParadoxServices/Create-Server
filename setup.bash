@@ -1,4 +1,5 @@
 sudo apt-get install unzip
+rm install.bash
 # menu.sh
 # Description: Bash menu generator
 # 
