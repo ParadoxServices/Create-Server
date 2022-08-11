@@ -6,8 +6,7 @@ ONLY SUPPORTS LINUX OR WINDOWS SUBSYSTEM FOR LINUX
 How to run
 
 ```
-curl -sSL https://raw.githubusercontent.com/paradoxservices/create-server/main/setup.bash --output setup.bash
-bash setup.bash
+curl -sSL https://raw.githubusercontent.com/paradoxservices/create-server/main/install.bash | bash
 ```
 
 it will install a dependency at first launch but it should be installed anyway.
