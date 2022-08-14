@@ -1,13 +1,13 @@
 # Create-Server
 Create an MC server using a script
 
-ONLY SUPPORTS LINUX OR WINDOWS SUBSYSTEM FOR LINUX
+For Windows,
+Run Execute.bat, this will install the dependencies and start the script.
 
-How to run
-
+For Linux and Mac,
+Run these 2 commands in the terminal where the python script is located:
 ```
-curl -sSL https://raw.githubusercontent.com/paradoxservices/create-server/main/install.bash | bash
-```
+pip install -r requirements.txt
 
-it will install a dependency at first launch but it should be installed anyway.
-at the answer menus, instead of choosing 1 for paper, put paper
+python CS.py
+```
